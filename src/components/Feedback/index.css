@@ -1,0 +1,65 @@
+/* Write your CSS code here. */
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffeeee;
+}
+
+.feedback-question-container,
+.thank-you-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  font-size: 24px;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.emoji {
+  width: 50px;
+  height: 50px;
+}
+
+.emoji-name {
+  font-size: 14px;
+  color: #1e293b;
+}
+
+.thank-you-heading {
+  font-size: 24px;
+  color: #1e293b;
+  margin-top: 20px;
+}
+
+.thank-you-text {
+  font-size: 16px;
+  color: #1e293b;
+  margin-top: 10px;
+}
+
+.love-emoji {
+  width: 100px;
+  height: 100px;
+}
